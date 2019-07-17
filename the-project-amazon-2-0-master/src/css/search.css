@@ -1,0 +1,63 @@
+html{
+    overflow: auto;
+}
+body{
+    width: 100%;
+    margin: 0em;
+}
+
+main{
+    min-height: calc(100vh - 12em);
+    margin: 4em 0em 0em 1em;
+    overflow: auto;
+
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 3em;
+    
+}
+
+h3{
+    text-align: center;
+}
+#searchform{
+    margin: 0 auto;
+    text-align: center;
+}
+.inb{
+    border: 3px solid black;
+    height: 1em;
+    width: 10em;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 1em;
+}
+.inb::placeholder{
+    opacity: .5;
+}
+table{
+    margin: 2em auto;
+    border-collapse: collapse;
+}
+tr{
+}
+td{
+    border: 2px solid green;
+/*    width: 17%;*/
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+.idk{
+    text-decoration: none;
+    color: blue;
+}
+p{
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="../css/login.css"/>
+  </head>
+
+  <body>
+<main>
+  <div class="container" id="register">
+    <h1>Create Account</h1>
+    
+    <form method="POST" action="../php/createuser.php" enctype="multipart/form-data">
+        <div>
+            <label class="infotitle">Username</label>
+            <label class="infotitle">Password</label>
+            <label class="infotitle">Email</label>
+            <label class="infotitle">First Name</label>
+            <label class="infotitle">Last Name</label>
+            <label class="infotitle">Profile Picture</label>
+            
+            <input type="text" id="username" name="username" placeholder="Username" required/>
+            <input type="password" id="password" name="password" placeholder="Password" required/>
+            <input type="email" id="email" name="email"  placeholder="Email" required/>
+            <input type="text" id="firtName" name="firstName" placeholder="First Name" required/>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required/>
+            <input type="file" id="userImage" name="userImage"/>
+
+        </div>
+       <p><a href="login.php">Back to Login</a></p>
+      <input id="createSubmit" class="submit" type="submit" value="Create Account"/>
+    </form>
+    </div>
+      </main>
+  </body>
+
+</html>

@@ -1,0 +1,100 @@
+img{
+    width: 80px;
+    height: 80px;
+}
+
+figure{
+    width: 80px;
+    margin: 0 0 0 1.5em;
+    display: inline-block;
+    float: left;
+}
+main{
+    margin-top: 5em;
+    height: 1000px;
+}
+
+#cartItems{
+    float: left;
+    width: 50%;
+    background-color: #CFCFE3;
+    padding: 0em 2em 2em 2em;
+    margin: 2em 2em 2em 2em;
+    min-height: 600px;
+}
+
+body{
+    width: 100%;
+    margin: 0em;
+}
+
+#cartItems h1{
+    color: #392AB7;
+    border-bottom: solid #392AB7;
+}
+
+#cartItems h2{
+    font-weight: normal;
+    width: 65%;
+    margin-left: 7em;
+    margin-bottom: 0.25em;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+h3{
+    width: 15%;
+    margin: 0 0 0 2em;
+    display: inline-block;
+    font-weight: normal;
+}
+
+i{
+    float: left;
+    clear: left;
+    position: relative;
+    top: 25px;
+}
+
+input{
+    width: 2.5em;
+    float: right;
+}
+
+.item{
+    height: 90px;
+    overflow: auto;
+    margin-bottom: 2em;
+}
+
+#totals{
+    display: inline-block;
+    width: 35%;
+    margin-top: 0.5em;
+}
+
+
+#totals h2, #totals h1{
+    float: left;
+    clear: left;
+    margin: 0.5em 0 0 3em;
+    width: 5em;
+}
+
+span{
+    float: left;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#checkoutButton{
+    background-color:  #EFEFEF;
+    padding: 0.5em;
+    color: #392AB7;
+    border: outset  #ABABAB;
+    text-decoration: none;
+    font-family: roboto;
+    margin-left: 4.5em;
+    position: relative;
+    top: 2em;
+}

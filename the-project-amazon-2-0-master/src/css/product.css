@@ -1,0 +1,143 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0em;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+main{
+    min-height: calc(100vh - 12em);
+    margin: 4em 0em 2em 1em;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    margin-left: 2em;
+    margin-top: 0;
+/*    width: 80%;*/
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    border-bottom: solid #392AB7;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0.25em;
+    font-weight: normal;
+}
+article{
+    height: 100%;
+}
+
+input{
+    margin-left: 1em;
+}
+
+label{
+    color: white;
+    font-size: 70%;
+    position: relative;
+    bottom: 2px
+}
+
+.filterTitle{
+    color: white;
+    font-size: 20px;
+    padding: 0 0 0.25em 0;
+    margin-top: 1em;
+}
+
+h3{
+    width: 100%;
+}
+
+div.item{
+    position: relative;
+   
+}
+
+div.item div{
+    padding-right: 50px;
+    overflow: hidden;
+    height: 300px
+}
+
+div.item figure{
+    float: left;
+    clear: left;
+    margin-top: 56px;
+    margin-bottom: 44px;
+}
+
+.item{
+    background-color: #CFCFE3; 
+    margin: 1em 0 1em 1em;
+    margin-top:0;
+    height: 300px;
+    overflow: hidden;
+    text-align: left;
+}
+.bold{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#center{
+    margin: 0 0 5em 0;
+/*    height: 1000px;*/
+   text-align: left;
+    float: right;
+    clear: right;
+    width: 85%;
+
+}
+#left-sidebar{
+    float: left;
+    background-color: #717171;
+    width: 15%;
+    margin: 0em 0em 2em 0em;
+    
+    overflow: hidden;  
+}
+#stretch{
+    height: 100%;
+    width: 100%;
+}
+
+#filters{
+    color: white;
+    float: left;
+}
+
+.itemTitle{
+    color: #392AB7;
+    size: 30px;
+}
+
+.price{
+    color: #bc2323;
+    size: 23px;
+}
+
+.descript{
+    size: 20px;
+}
+.butcenter{
+    margin-left: -1em;
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+img{
+    height: 200px;
+    width: 200px;
+}

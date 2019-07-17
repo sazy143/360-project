@@ -1,0 +1,181 @@
+body{
+  font-family: "Segoe UI";
+
+}
+html{
+    overflow: auto;
+}
+body{
+    width: 100%;
+    margin: 0em;
+}
+
+main{
+    min-height: calc(100vh - 12em);
+    margin: 4em 0em 0em 1em;
+    overflow: auto;
+
+}
+
+.container{
+  background-color: #CFCFE3;
+  border: 1px solid darkblue;
+  width: 35em;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3em;
+  margin-bottom: 5em;
+
+}
+#login{
+    height: 24em;
+}
+
+#checkoutSubmit{
+    margin-top: 0;
+}
+.fail{
+    color: red;
+    position: relative;
+    right: 3.5em;
+    font-size: 85%
+}
+#createSubmit{
+    margin-top: 0.5em;
+}
+#register{
+    height: 29em;
+}
+#checkout{
+    height: 59em;
+}
+#accountdiv{
+    height: 46.5em;
+}
+h1{
+  margin: auto;
+  margin-bottom: 1em;
+    margin-top: 1em;
+  text-align: center;
+
+
+}
+
+form{
+  margin-top: 1em;
+  text-align: center;
+    flex:1;
+}
+
+label{
+  margin: 0.5em;
+  width: 10em;
+    height: 1.5em;
+
+}
+main input{
+  margin: 0.5em;
+  width: 15em;
+    height: 1.5em;
+    margin-right: 8em;
+
+}
+select{
+    margin: 0.5em;
+    width: 15em;
+    height: 2em;
+    margin-right: 8em; 
+}
+
+#userImage{
+    margin-top: 0.9em;
+}
+
+.infotitle{
+  float: left;
+  clear: left;
+  text-align: left;
+  margin-left: 3em;
+}
+
+.submit{
+  margin-top: 2em;
+  margin-left: 0;
+  margin-right: 0;
+    clear: left;
+    width: auto;
+    height: auto;
+    float: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-bottom: 3em;
+}
+.update{
+    margin-top: 1em;
+     margin-bottom: 1.5em;
+    margin-right: 2em;
+    float: right;
+    clear: both;
+    width: auto;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    
+}
+
+.break{
+    border-top: 1px solid darkblue;
+}
+
+.inline{
+    display: inline;
+    margin: 1em;
+}
+h2{
+    display: inline;
+    margin: 1em;
+}
+.sub{
+    display: block;
+    float: left;
+    clear: left;
+    text-align: right;
+    height: 2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 1em;
+    font-size: 1em;
+    margin-right: 1em;
+    width: 44%;
+}
+.money{
+    float: left;
+    font-size: 1em;
+    height: 2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-right: 1em;
+    width: 44%;
+    margin-left: 1em;
+    text-align: left;
+}
+#tax{
+    overflow: auto;
+}
+#basic{
+    overflow: auto;
+}
+#big{
+    height: 4em;
+    width: 8em;
+    margin: 0;
+}

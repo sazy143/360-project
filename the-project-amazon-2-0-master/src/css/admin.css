@@ -1,0 +1,102 @@
+html{
+    overflow: auto;
+}
+body{
+    width: 100%;
+    margin: 0em;
+}
+
+main{
+    min-height: calc(100vh - 12em);
+    margin: 4em 0em 0em 1em;
+    overflow: auto;
+
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 3em;
+    
+}
+
+h3{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 1em;
+}
+a{
+    text-decoration: none;
+}
+
+tr{
+
+}
+
+td{
+    border: 3px solid darkblue;
+    border-radius: .5em;
+    font-size: 3em;
+    padding: 0.5em;
+    text-align: center;
+    background-color: azure;
+    width: 33%;
+    height: 1em;
+}
+
+td:hover{
+    background-color: lightblue;
+}
+
+#edit{
+    margin: 0 auto;
+    text-align: center;
+    width: 30em;
+    background-color: aqua;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    border: 1px solid darkblue;
+    border-radius: 1em;
+}
+
+.grid-cont{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-iteml{
+    text-align: right;
+    margin: 1em 1em 1em 0;
+    vertical-align: middle;
+}
+.grid-item{
+    text-align: left;
+    width: 10em;
+    margin: 1em 1em 1em 0;
+    vertical-align: middle;
+}
+#spec{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+#searchform{
+    margin: 0 auto;
+    text-align: center;
+}
+.inb{
+    border: 3px solid black;
+    height: 1em;
+    width: 10em;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 1em;
+}
+.inb::placeholder{
+    opacity: .5;
+}
